@@ -1,50 +1,54 @@
-    body{background-color: beige;}
+body{background-color: beige;}
     h2{text-align: center;
         font-size: 40px;
-        font-family: Arial, Helvetica, sans-serif
+        color:darkblue;
+        font-weight: bold;
     }
     h1{
         font-size: 30px;
         margin: 10px 2%;
         color:darkblue}
-     p{
-        font-size: 20px;
+     p, h3{
+        font-size: 22px;
         margin: 20px 5%;
         color:darkslategrey;
         text-align: justify;
+    }
+    h3{
+        font-size: 30px;
     }
     .kozeprehelyezes {text-align: center;}
     .kulsobehuzas1{margin: 30px 5%;}
     .kulsobehuzas2{margin: 10px 2%}
     .kulsobehuzas3{margin: 20px 5%;}
     .jobbehuzas1{margin-right: 60%;}
-    .kekkeret1{border: 20px solid lightblue; padding: 10px; width: 425px;}
-    .piroskeret1{border: 3px solid red; padding: 10px; width: 425px;}  
-    .piroskeret2{border: 20px solid orangered; padding: 10px; width: 425px;}  
+    .piroskeret1{border: 3px solid red; padding: 10px; width: 700px;}  
     .belsobehuzas1{padding: 10px;}
     .betumeret1{font-size: 20px}
     .betumeret2{font-size: 25px}
     .betumeret3{font-size: 30px}
     .jobbszoveg{float: right;}
-    #hatterkekszin{background-color: lightblue;}
-    #hatterpirosszin{background-color: orangered;}
-    #hatterkep{
-        background-image: url(telepkép.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+    #hatterkekszin{background-color: aqua;}
+    #hatterpirosszin{background-color: tomato;}
+    #istalo{
+        width: auto;
+        height: 300px;
     }
+    
     img{
         float: right;
         width: 500px;
         margin: 0px 200px;
+        border: 5px solid black;
         }
      table{
         border-collapse: collapse;
-        font-size: 35px;
+        font-size: 25px;
         margin: 20px 5%;
-        }
+        border: 5px solid black}
+    th{
+        font-size: 27px;
+    }
     td, th{ 
         border: 2px solid black;
         text-align: center;
@@ -54,3 +58,13 @@
         list-style-type: square;
         margin: 0px 5%;
         }
+    a:visited{
+        color: blue;
+        text-decoration: none;
+    }
+    a:hover{
+        color:red
+    }
+    a:active{
+        color: aqua;
+    }
