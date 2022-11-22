@@ -1,13 +1,13 @@
 body{background-color: beige;}
     h2{text-align: center;
         font-size: 40px;
-        color:darkblue;
+        color:#774342;
         font-weight: bold;
     }
     h1{
         font-size: 30px;
         margin: 10px 2%;
-        color:darkblue}
+        color:#774342}
      p, h3{
         font-size: 22px;
         margin: 20px 5%;
@@ -22,7 +22,7 @@ body{background-color: beige;}
     .kulsobehuzas2{margin: 10px 2%}
     .kulsobehuzas3{margin: 20px 5%;}
     .jobbehuzas1{margin-right: 60%;}
-    .piroskeret1{border: 3px solid red; padding: 10px; width: 700px;}  
+    .piroskeret1{border: 5px solid #F05E07; padding: 10px; width: 700px;}  
     .belsobehuzas1{padding: 10px;}
     .betumeret1{font-size: 20px}
     .betumeret2{font-size: 25px}
@@ -39,18 +39,18 @@ body{background-color: beige;}
         float: right;
         width: 500px;
         margin: 0px 200px;
-        border: 5px solid black;
+        border: 5px solid #DE7C27;
         }
      table{
         border-collapse: collapse;
         font-size: 25px;
         margin: 20px 5%;
-        border: 5px solid black}
+        border: 10px solid #DE7C27}
     th{
         font-size: 27px;
     }
     td, th{ 
-        border: 2px solid black;
+        border: 5px solid #F09B59;
         text-align: center;
         padding: 10px;
         }
@@ -59,11 +59,14 @@ body{background-color: beige;}
         margin: 0px 5%;
         }
     a:visited{
-        color: blue;
+        color: #774342;
     }
     a:hover{
         color:red
     }
     a:active{
-        color: aqua;
+        color: #F08784;
+    }
+    a{
+        color: #F09506;
     }
