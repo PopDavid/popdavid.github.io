@@ -60,7 +60,6 @@ body{background-color: beige;}
         }
     a:visited{
         color: blue;
-        text-decoration: none;
     }
     a:hover{
         color:red
